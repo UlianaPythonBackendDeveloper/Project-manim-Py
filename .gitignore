@@ -31,6 +31,10 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+echo "__pycache__/" >> .gitignore
+echo "media/" >> .gitignore
+echo "*.mp4" >> .gitignore
+echo ".venv/" >> .gitignore
 
 # Installer logs
 pip-log.txt
